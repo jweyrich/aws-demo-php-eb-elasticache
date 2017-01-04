@@ -1,0 +1,28 @@
+branch-defaults:
+  default:
+    environment: null
+  master:
+    # Change the environment name.
+    environment: demo-php-elasticache-d
+global:
+  # Change the application name.
+  application_name: demo-php-elasticache
+  
+  # Change the EC2 keypair name.
+  default_ec2_keyname: my_keypair_name
+  
+  # Change the platform (AMI) used to create the instance.
+  default_platform: 64bit Amazon Linux 2016.09 v2.3.0 running PHP 5.6
+  
+  # Change the region where you are going to deploy the application.
+  default_region: us-east-1
+  
+  # Your ~/.aws/credentials file may contain one or multiple accounts.
+  # Here you can change which account you want to use when deploying
+  # this application. If you don't provide a profile name here, the
+  # default account will be used.
+  #profile: your-profile-name
+  sc: git
+packages:
+  yum:
+    libmemcached: []

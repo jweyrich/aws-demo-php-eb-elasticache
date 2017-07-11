@@ -10,7 +10,7 @@ Show how to deploy a sample PHP application on AWS Elastic Beanstalk using AutoS
 
  c) Have a previously created ElastiCache cluster.
 
- **NOTE**: You may automate _a_ and _b_ using [Elastic Beanstalk Environment Resources][2]. For the purposes of this demo, we assume you already have a VPC and a ElastiCache cluster.
+ **NOTE**: You may automate _b_ and _c_ using [Elastic Beanstalk Environment Resources][2]. For the purposes of this demo, we assume you already have a VPC and a ElastiCache cluster.
 
 ## Steps to deploy
 
